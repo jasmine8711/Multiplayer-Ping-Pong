@@ -1,0 +1,57 @@
+body {
+  font-family: arial, sans-serif;
+  background: #004080;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.username {
+  margin: 15px auto;
+  color: white;
+  font-size: 25px;
+}
+.player {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.playerText {
+  text-align: center;
+  margin: auto 120px;
+}
+#player1 {
+  font-size: 30px;
+  color: aqua;
+}
+.input {
+  width: 15%;
+  height: 20px;
+  margin: 0 auto;
+}
+.column {
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#scoreBoard {
+  background: lightblue;
+}
+.head {
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+}
