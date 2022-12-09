@@ -6,7 +6,7 @@
   "dependencies": {
     "@tmkelly28/tk-css": "^1.0.2",
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "morgan": "^1.8.2",
     "pg": "^6.4.0",
     "pg-hstore": "^2.3.2",
